@@ -1,6 +1,8 @@
 Automated Extraction of Labels from Large-Scale Historical Maps
 ---
 
+[![DOI](https://zenodo.org/badge/361790617.svg)](https://zenodo.org/badge/latestdoi/361790617)
+
 **Author:** Inga Schlegel
 
 **Date**: 04/26/2021
@@ -58,8 +60,3 @@ Here, the German language package was chosen (`-l deu`). The input images were t
 The (exemplary) input and (all) output data from the implemented Levenshtein Distance algorithm ([String_Similarity_by_Levenshtein_Distance.ipynb](https://gitlab.com/g2lab/label-extraction-from-historical-maps/-/blob/master/05%20String%20similarity/String_Similarity_by_Levenshtein_Distance.ipynb)) are stored in [05 String similarity/data/OCR_results.xlsx](https://gitlab.com/g2lab/label-extraction-from-historical-maps/-/blob/master/05%20String%20similarity/data/OCR_results.xlsx).
 
 As a following step, an approximate georeferencing (as described in the paper's section 3.6) can be performed with QGIS Georeferencer. With the help of the best overall matches (throughout the whole map, see green marking in [05 String similarity/data/OCR_results.xlsx](https://gitlab.com/g2lab/label-extraction-from-historical-maps/-/blob/master/05%20String%20similarity/data/OCR_results.xlsx)), the centroids of the bounding boxes extracted in the text detection step with Strabo can be referenced to the "centroid" of the respective street or place (column *geometry_centroid* in *strassennetz*) whose original dataset already has a coordinate system. As a result, an approximate and initial georeferencing of the historical map may be generated via affine transformation.
-
-
-
-
-<a href="https://zenodo.org/badge/latestdoi/361790617"><img src="https://zenodo.org/badge/361790617.svg" alt="DOI"></a>
