@@ -1,8 +1,6 @@
 # Automated Extraction of Labels from Large-Scale Historical Maps
 
-[![DOI](https://zenodo.org/badge/361790617.svg)](https://zenodo.org/badge/latestdoi/361790617)
-![Alt text](https://zenodo.org/badge/361790617.svg)
-<img src="https://zenodo.org/badge/361790617.svg">
+[![DOI](https://github.com/IngaSchl/Label-Extraction/blob/main/zenodo.4721175.svg)](https://zenodo.org/badge/latestdoi/361790617)
 
 **Author:** Inga Schlegel
 
