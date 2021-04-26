@@ -61,4 +61,5 @@ As a following step, an approximate georeferencing (as described in the paper's 
 
 
 
-[![DOI](https://zenodo.org/badge/361790617.svg)](https://zenodo.org/badge/latestdoi/361790617)
+
+<a href="https://zenodo.org/badge/latestdoi/361790617"><img src="https://zenodo.org/badge/361790617.svg" alt="DOI"></a>
