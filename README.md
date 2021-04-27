@@ -38,7 +38,7 @@ Each text image area was rotated manually through its averaged rotation angle wh
 
 After rotating the text image areas, each one was cropped to its actual extent.
 At the same time, the black background (if present) was removed and replaced by a transparent one.
-See folder 'data/output' for the rotated and cropped data which was stored in tiff format without compression.
+See folder ([data/output](https://github.com/IngaSchl/Label-Extraction/tree/main/03%20Additional%20adjustments/02%20rotate%20text%20image%20areas/data/output)) for the rotated and cropped data which was stored in tiff format without compression.
 
 
 ## 04 Text recognition
