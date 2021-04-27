@@ -6,9 +6,9 @@
 
 **Date**: 04/26/2021
 
-Research data and software used and implemented for the AGILE 2021 full paper *Automated Extraction of Labels from Large-Scale Historical Maps*.
+Research data and software used and implemented for the AGILE 2021 full paper *Automated Extraction of Labels from Large-Scale Historical Maps*. 
 
-Each subfolder *data* contains exemplary input and output data for each process step 02-05.
+This repository's structure follows the one of section 3 within the paper. Each subfolder *data* contains exemplary input and output data for each process step 02-06.
 
 
 ## 01 Data
@@ -58,4 +58,11 @@ Here, the German language package was chosen (`-l deu`). The input images were t
 
 The (exemplary) input and (all) output data from the implemented Levenshtein Distance algorithm ([String_Similarity_by_Levenshtein_Distance.ipynb](https://gitlab.com/g2lab/label-extraction-from-historical-maps/-/blob/master/05%20String%20similarity/String_Similarity_by_Levenshtein_Distance.ipynb)) are stored in [05 String similarity/data/OCR_results.xlsx](https://gitlab.com/g2lab/label-extraction-from-historical-maps/-/blob/master/05%20String%20similarity/data/OCR_results.xlsx).
 
-As a following step, an approximate georeferencing (as described in the paper's section 3.6) can be performed with QGIS Georeferencer. With the help of the best overall matches (throughout the whole map, see green marking in [05 String similarity/data/OCR_results.xlsx](https://github.com/IngaSchl/Label-Extraction/blob/main/05%20String%20similarity/data/OCR_results.xlsx)), the centroids of the bounding boxes extracted in the text detection step with Strabo can be referenced to the "centroid" of the respective street or place (column *geometry_centroid* in *strassennetz*) whose original dataset already has a coordinate system. As a result, an approximate and initial georeferencing of the historical map may be generated via affine transformation.
+
+## 06 Approximate georeferencing
+
+Finds the reference points of a current street dataset by different types of centroids per street name.
+
+As a following step, an approximate georeferencing can be performed with QGIS Georeferencer. With the help of the best overall matches (throughout the whole map, see green marking in [05 String similarity/data/OCR_results.xlsx](https://github.com/IngaSchl/Label-Extraction/blob/main/05%20String%20similarity/data/OCR_results.xlsx)), the historical maps' centroids of the bounding boxes - which were already extracted in the text detection step with Strabo - can be referenced to the generated "centroid" of the respective current street or place. As a result, an initial, approximate georeferencing of the historical map may be performed via affine transformation.
+
+**Caution**: The script [Centroids_current_streets.ipynb](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/Centroids_current_streets.ipynb) is still in beta phase. Therefore, computing time may be extensive.
