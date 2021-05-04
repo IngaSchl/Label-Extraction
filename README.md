@@ -17,8 +17,8 @@ All \*.ipynb files can be executed directly within Jupyter Notebook. To install 
 
 The Python libraries needed for the \*.ipynb files are listed below. They can be installed with `pip install -r requirements.txt`.
 
-`
-contextlib2==0.6.0.post1
+```
+contextlib2==0.6.0.post1<br>
 fuzzywuzzy==0.18.0
 gdal==3.0.4
 geopandas==0.7.0
@@ -29,7 +29,7 @@ numpy==1.18.1
 pandas==1.0.3
 python-levenshtein==0.12.0
 shapely==1.6.4
-`
+```
 
 
 ## 01 Data
