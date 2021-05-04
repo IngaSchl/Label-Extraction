@@ -88,7 +88,7 @@ Finds the reference points of a current street dataset by different types of cen
 
 As a following step, an approximate georeferencing can be performed with QGIS Georeferencer. With the help of the best overall matches (throughout the whole map, see green marking in [05 String similarity/data/OCR_results.xlsx](https://github.com/IngaSchl/Label-Extraction/blob/main/05%20String%20similarity/data/OCR_results.xlsx)), the historical maps' centroids of the bounding boxes - which were already extracted in the text detection step with Strabo - can be referenced to the generated "centroid" of the respective current street or place. As a result, an initial, approximate georeferencing of the historical map may be performed via affine transformation.
 
-**Caution**: The script [Centroids_current_streets.ipynb](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/Centroids_current_streets.ipynb) is still in beta phase. Therefore, computing time may be extensive (on our machine with 2 cores this took **<span style="color: red;">xy</span>** hours).
+**Caution**: The script [Centroids_current_streets.ipynb](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/Centroids_current_streets.ipynb) is still in beta phase. Therefore, computing time may be extensive (on our machine with 2 cores this took <span style="color: red;">**xx**</span> hours).
 
 
 ## Figures in paper
