@@ -97,6 +97,6 @@ The output datasets shown in the paper's figures are linked as follows:
 
 * Figure 1: [02 Text detection/data/input/G6299_H3_1853_L5_subset.png](https://github.com/IngaSchl/Label-Extraction/blob/main/02%20Text%20detection/data/input/G6299_H3_1853_L5_subset.png)
 * Figure 3: [02 Text detection/data/output/geoJson1.json](https://github.com/IngaSchl/Label-Extraction/blob/main/02%20Text%20detection/data/output/geoJson1.json)
-* Figure 4: [03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo](https://github.com/IngaSchl/Label-Extraction/blob/main/03%20Additional%20adjustments/01%20unify%20overlapping%20bounding%20boxes/data/output)
-* Figure 5: [03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo](https://github.com/IngaSchl/Label-Extraction/blob/main/03%20Additional%20adjustments/01%20unify%20overlapping%20bounding%20boxes/data/output)
-* Figure 6: [06 Approximate georeferencing/data/output/roads_centroids_utm](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/data/output)
+* Figure 4: [03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo_utm.shp](https://github.com/IngaSchl/Label-Extraction/blob/main/03%20Additional%20adjustments/01%20unify%20overlapping%20bounding%20boxes/data/output)
+* Figure 5: [03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo_utm.shp](https://github.com/IngaSchl/Label-Extraction/blob/main/03%20Additional%20adjustments/01%20unify%20overlapping%20bounding%20boxes/data/output)
+* Figure 6: [06 Approximate georeferencing/data/output/roads_centroids_utm.shp](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/data/output)
