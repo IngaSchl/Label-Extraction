@@ -88,4 +88,15 @@ Finds the reference points of a current street dataset by different types of cen
 
 As a following step, an approximate georeferencing can be performed with QGIS Georeferencer. With the help of the best overall matches (throughout the whole map, see green marking in [05 String similarity/data/OCR_results.xlsx](https://github.com/IngaSchl/Label-Extraction/blob/main/05%20String%20similarity/data/OCR_results.xlsx)), the historical maps' centroids of the bounding boxes - which were already extracted in the text detection step with Strabo - can be referenced to the generated "centroid" of the respective current street or place. As a result, an initial, approximate georeferencing of the historical map may be performed via affine transformation.
 
-**Caution**: The script [Centroids_current_streets.ipynb](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/Centroids_current_streets.ipynb) is still in beta phase. Therefore, computing time may be extensive.
+**Caution**: The script [Centroids_current_streets.ipynb](https://github.com/IngaSchl/Label-Extraction/blob/main/06%20Approximate%20georeferencing/Centroids_current_streets.ipynb) is still in beta phase. Therefore, computing time may be extensive (on our machine with 2 cores this took .............).
+
+
+## Figures in paper
+
+The output datasets shown in the paper's figures are linked as follows:
+
+* Figure 1: 02 Text detection/data/input/G6299_H3_1853_L5_subset.png
+* Figure 3: 02 Text detection/data/output/geoJson1.json
+* Figure 4: 03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo_utm.shp
+* Figure 5: 03 Additional adjustments/01 unify overlapping bounding boxes/data/output/improved_boundingboxes_strabo_utm.shp
+* Figure 6: 06 Approximate georeferencing/data/output/roads_centroids_utm.shp
