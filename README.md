@@ -10,6 +10,27 @@ Research data and software used and implemented for the AGILE 2021 full paper *A
 
 This repository's structure follows the one of section 3 within the paper. Each subfolder *data* contains exemplary input and output data for each process step 02-06.
 
+All \*.ipynb files can be executed directly within Jupyter Notebook. To install and set up Jupyter Notebook via `conda` or `pip` see [Jupyter's installation guide](https://jupyter.org/install).
+
+
+## Library requirements
+
+The Python libraries needed for the \*.ipynb files are listed below. They can be installed with `pip install -r requirements.txt`.
+
+`
+contextlib2==0.6.0.post1
+fuzzywuzzy==0.18.0
+gdal==3.0.4
+geopandas==0.7.0
+matplotlib==3.1.3
+more-itertools==8.4.0
+msys2-conda-epoch==20160418
+numpy==1.18.1
+pandas==1.0.3
+python-levenshtein==0.12.0
+shapely==1.6.4
+`
+
 
 ## 01 Data
 
@@ -20,6 +41,8 @@ Data source: Hamburg, Germany, 1853 (Raster Image). [GeoTIFF]. Harvard Map Colle
 
 ### Run Strabo for text detection
 see also https://github.com/spatial-computing/strabo-text-recognition-deep-learning
+
+As Strabo (Version 0.67) only works with input images in JPEG or PNG format, the linked dataset in *01 Data* was converted into lossless PNG with smallest possible compression. This step may be performed with the help of common image editing software (e.g. GIMP).
 
 In Linux command line:
 1) `cd path/to/strabo-text-recognition-deep-learning`
