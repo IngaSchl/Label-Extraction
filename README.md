@@ -2,7 +2,7 @@
 
 [![DOI](https://github.com/IngaSchl/Label-Extraction/blob/main/zenodo.4738397.svg)](https://doi.org/10.5281/zenodo.4721174)
 
-**Author:** Inga Schlegel
+**Author:** Inga Schlegel 
 
 **Date**: 04/26/2021
 
