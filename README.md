@@ -6,7 +6,7 @@
 
 **Date**: 04/26/2021
 
-Research data and software used and implemented for the AGILE 2021 full paper *Automated Extraction of Labels from Large-Scale Historical Maps*. 
+Research data and software used and implemented for the AGILE 2021 full paper [*Automated Extraction of Labels from Large-Scale Historical Maps*](https://agile-giss.copernicus.org/articles/2/12/2021/). 
 
 This repository's structure follows the one of section 3 within the paper. Each subfolder *data* contains exemplary input and output data for each process step 02-06.
 
